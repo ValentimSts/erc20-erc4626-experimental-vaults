@@ -1,0 +1,17 @@
+{
+  "name": "erc20-erc4626-experimental-vaults-vyper",
+  "version": "1.0.0",
+  "description": "ERC20 and ERC4626 experimental vault implementations in Vyper",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-viem": "^3.0.0",
+    "@nomicfoundation/hardhat-viem": "^2.0.0",
+    "@nomiclabs/hardhat-vyper": "^3.0.7",
+    "hardhat": "^2.22.0",
+    "typescript": "^5.0.0",
+    "viem": "^2.0.0"
+  }
+}
